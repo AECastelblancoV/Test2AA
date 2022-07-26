@@ -1,3 +1,4 @@
-import datetime
-fecha = str(datetime.datetime.now())+str('test.log')
-print (fecha)--> 2018-10-30 09:18:29.606405test.log
+LOG_FILENAME = datetime.datetime.now().strftime("%Y%m%d_%H%M%Stest.log")
+print(LOG_FILENAME)
+20220726test.log
+return
