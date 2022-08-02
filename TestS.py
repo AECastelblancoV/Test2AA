@@ -1,4 +1,11 @@
-LOG_FILENAME = datetime.datetime.now().strftime("%Y%m%d_%H%M%Stest.log")
-print(LOG_FILENAME)
-20220726test.log
-return
+import datetime 
+  
+filename = datetime.datetime.now() 
+  
+def create_file(): 
+    
+    
+    with open(filename.strftime("%d %B %Y")+".txt", "w") as file: 
+        file.write("") 
+  
+create_file() 
